@@ -1,0 +1,856 @@
+[
+    {
+        "type": "schedule",
+        "description": "Weekly overview of meetings and deadlines",
+        "items": [
+            {
+                "event": "Machine Learning Workshop",
+                "time": "Tuesday 2:00 PM",
+                "location": "Online",
+                "participants": [
+                    "Rohit",
+                    "Ananya",
+                    "Suresh"
+                ],
+                "notes": "Focus on PyTorch and TensorFlow basics"
+            },
+            {
+                "event": "Project Submission Deadline",
+                "time": "Friday 11:59 PM",
+                "location": "University portal",
+                "notes": "Submit final AI project report and code"
+            },
+            {
+                "event": "Research Group Meeting",
+                "time": "Monday 9:00 AM",
+                "location": "Room 210, AI Dept.",
+                "participants": [
+                    "Dr. Sharma",
+                    "Rohit",
+                    "Team"
+                ],
+                "notes": "Discuss paper drafts and future plans"
+            }
+        ]
+    },
+    {
+        "type": "preferences",
+        "description": "User likes and dislikes for food, music, and books",
+        "likes": [
+            "Thalipeeth",
+            "Mango Lassi",
+            "Jazz music",
+            "Science Fiction novels"
+        ],
+        "dislikes": [
+            "Artificially sweetened beverages",
+            "Heavy metal music",
+            "Horror novels"
+        ]
+    },
+    {
+        "type": "work",
+        "description": "Current work and internship plans",
+        "tasks": [
+            {
+                "task": "Optimize CNN model for real-time inference",
+                "deadline": "Next Monday",
+                "status": "In progress"
+            },
+            {
+                "task": "Prepare presentation for AI seminar",
+                "deadline": "Wednesday",
+                "status": "Not started"
+            },
+            {
+                "task": "Contact internship companies",
+                "deadline": "This week",
+                "status": "Pending"
+            }
+        ]
+    },
+    {
+        "type": "weather",
+        "description": "Weekly weather forecast",
+        "location": "Bengaluru",
+        "weekly_forecast": [
+            {
+                "day": "Monday",
+                "temperature": "27°C",
+                "condition": "Sunny"
+            },
+            {
+                "day": "Tuesday",
+                "temperature": "26°C",
+                "condition": "Cloudy"
+            },
+            {
+                "day": "Wednesday",
+                "temperature": "28°C",
+                "condition": "Rain Showers"
+            },
+            {
+                "day": "Thursday",
+                "temperature": "25°C",
+                "condition": "Thunderstorms"
+            },
+            {
+                "day": "Friday",
+                "temperature": "29°C",
+                "condition": "Sunny"
+            }
+        ]
+    },
+    {
+        "type": "reminders",
+        "description": "Reminders for health and personal activities",
+        "reminders": [
+            "Take vitamin D supplement",
+            "Practice coding problems for 1 hour",
+            "Schedule meeting with project advisor",
+            "Water indoor plants"
+        ]
+    },
+    {
+        "type": "hobbies",
+        "description": "Current hobbies and learning activities",
+        "details": [
+            "Building Raspberry Pi projects",
+            "Reading AI research papers",
+            "Jogging in the park",
+            "Exploring new cuisines"
+        ]
+    },
+    {
+        "type": "health_routine",
+        "description": "Weekly health and wellness schedule",
+        "routine": [
+            {
+                "activity": "Yoga",
+                "time": "Morning",
+                "days": [
+                    "Monday",
+                    "Wednesday",
+                    "Friday"
+                ]
+            },
+            {
+                "activity": "Strength training",
+                "time": "Evening",
+                "days": [
+                    "Tuesday",
+                    "Thursday"
+                ]
+            },
+            {
+                "activity": "Sleep by 11 PM",
+                "time": "Night",
+                "days": [
+                    "Everyday"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "travel",
+        "description": "Planned and past trips",
+        "trips": [
+            {
+                "destination": "Goa",
+                "date": "15th December",
+                "purpose": "Vacation",
+                "hotel": "Beachside Resort"
+            },
+            {
+                "destination": "Hyderabad",
+                "date": "10th November",
+                "purpose": "Conference",
+                "hotel": "Marriott"
+            }
+        ]
+    },
+    {
+        "type": "music",
+        "description": "Music playlist and recent favorites",
+        "favorites": [
+            "Classical Indian ragas",
+            "Indie rock",
+            "Electronic music"
+        ],
+        "recently_played": [
+            "Blinding Lights - The Weeknd",
+            "Bohemian Rhapsody - Queen"
+        ]
+    },
+    {
+        "type": "news",
+        "description": "Latest updates on technology and science",
+        "articles": [
+            {
+                "headline": "New AI model predicts climate change impacts",
+                "summary": "Breakthrough in predictive modeling with deep learning."
+            },
+            {
+                "headline": "Quantum computing reaches new milestone",
+                "summary": "Researchers achieve unprecedented qubit stability."
+            }
+        ]
+    },
+    {
+        "type": "mindfulness",
+        "description": "Daily mindfulness practices",
+        "affirmation": "I approach challenges with calm and focus.",
+        "tip": "Pause for a minute of gratitude each morning."
+    },
+    {
+        "type": "contacts",
+        "description": "Important contacts and communication history",
+        "contacts": [
+            {
+                "name": "Professor Gupta",
+                "last_contacted": "Last week",
+                "note": "Discussed thesis progress"
+            },
+            {
+                "name": "Sister",
+                "last_contacted": "Yesterday",
+                "note": "Shared family photos"
+            }
+        ]
+    },
+    {
+        "type": "shopping_list",
+        "description": "Groceries and essentials",
+        "items": [
+            "Greek yogurt",
+            "Oats",
+            "Honey",
+            "Hand sanitizer"
+        ]
+    },
+    {
+        "type": "bookmarks",
+        "description": "Saved articles and tutorials",
+        "items": [
+            "PyTorch tutorial",
+            "AI ethics article",
+            "Deep learning research paper"
+        ]
+    },
+    {
+        "type": "ai_assistant_knowledge_base",
+        "description": "Knowledge snippets for LLM or RAG assistant",
+        "snippets": [
+            {
+                "topic": "PyTorch Basics",
+                "content": "PyTorch is an open-source machine learning library for Python, used for applications such as computer vision and natural language processing. It provides tensors and dynamic computational graphs."
+            },
+            {
+                "topic": "Retrieval-Augmented Generation (RAG)",
+                "content": "RAG combines retrieval of relevant documents with generative models to produce more accurate and context-aware responses. It is commonly used in question answering systems."
+            },
+            {
+                "topic": "Prompt Engineering",
+                "content": "Prompt engineering involves designing and refining prompts to guide LLMs to produce desired outputs. Techniques include few-shot, zero-shot, and chain-of-thought prompting."
+            },
+            {
+                "topic": "Fine-tuning LLMs",
+                "content": "Fine-tuning involves training a pre-trained language model on a specific dataset to adapt it for specialized tasks, improving performance on domain-specific queries."
+            },
+            {
+                "topic": "Vector Databases",
+                "content": "Vector databases store embeddings of documents or data points, enabling efficient similarity search for retrieval-augmented generation and semantic search applications."
+            }
+        ]
+    },
+    {
+        "type": "ai_assistant_faq",
+        "description": "Frequently asked questions for AI assistant",
+        "faq": [
+            {
+                "question": "How do I fine-tune a language model?",
+                "answer": "You can fine-tune a language model by preparing a labeled dataset, selecting a pre-trained model, and training it further on your data using frameworks like Hugging Face Transformers."
+            },
+            {
+                "question": "What is the difference between GPT and BERT?",
+                "answer": "GPT is a generative model optimized for text generation, while BERT is a bidirectional encoder optimized for understanding context and classification tasks."
+            },
+            {
+                "question": "How can I use RAG for question answering?",
+                "answer": "RAG models retrieve relevant documents from a knowledge base and use a generative model to synthesize answers, improving accuracy for open-domain questions."
+            }
+        ]
+    },
+    {
+        "type": "ai_assistant_tools",
+        "description": "Common tools and libraries for LLM and RAG development",
+        "tools": [
+            {
+                "name": "Hugging Face Transformers",
+                "purpose": "Library for state-of-the-art NLP models, including LLMs and RAG architectures."
+            },
+            {
+                "name": "FAISS",
+                "purpose": "Efficient similarity search and clustering of dense vectors, used in retrieval systems."
+            },
+            {
+                "name": "LangChain",
+                "purpose": "Framework for developing applications with LLMs, including chaining, retrieval, and agent capabilities."
+            },
+            {
+                "name": "Haystack",
+                "purpose": "Open-source framework for building search systems, question answering, and RAG pipelines."
+            }
+        ]
+    },
+
+    {
+        "type": "ai_assistant_knowledge_base",
+        "description": "Extended knowledge snippets for LLM or RAG assistant",
+        "snippets": [
+            {
+                "topic": "Tokenization",
+                "content": "Tokenization is the process of converting raw text into smaller units called tokens, which can be words, subwords, or characters. Modern LLMs often use subword tokenization for efficiency."
+            },
+            {
+                "topic": "Attention Mechanism",
+                "content": "Attention allows models to focus on relevant parts of the input sequence when making predictions. Self-attention is a key component of transformer architectures."
+            },
+            {
+                "topic": "Transformer Architecture",
+                "content": "Transformers use self-attention and feed-forward layers to process sequences in parallel, enabling efficient training and state-of-the-art results in NLP."
+            },
+            {
+                "topic": "Zero-shot Learning",
+                "content": "Zero-shot learning enables models to perform tasks without explicit task-specific training data, relying on generalization from pre-trained knowledge."
+            },
+            {
+                "topic": "Few-shot Learning",
+                "content": "Few-shot learning allows models to learn new tasks from a small number of examples, often using prompt-based techniques."
+            },
+            {
+                "topic": "Chain-of-Thought Prompting",
+                "content": "Chain-of-thought prompting encourages LLMs to reason step-by-step, improving performance on complex reasoning and arithmetic tasks."
+            },
+            {
+                "topic": "Knowledge Distillation",
+                "content": "Knowledge distillation transfers knowledge from a large teacher model to a smaller student model, making deployment more efficient."
+            },
+            {
+                "topic": "LoRA (Low-Rank Adaptation)",
+                "content": "LoRA is a parameter-efficient fine-tuning method that injects trainable low-rank matrices into transformer layers, reducing resource requirements."
+            },
+            {
+                "topic": "Prompt Injection Attacks",
+                "content": "Prompt injection is a security risk where malicious input manipulates LLM behavior. Mitigation includes input sanitization and robust prompt design."
+            },
+            {
+                "topic": "Hallucination in LLMs",
+                "content": "Hallucination refers to LLMs generating plausible but incorrect or fabricated information. Techniques like RAG and fact-checking help reduce hallucinations."
+            },
+            {
+                "topic": "Context Window",
+                "content": "The context window is the maximum number of tokens an LLM can process at once. Larger windows enable handling longer documents but require more memory."
+            },
+            {
+                "topic": "Embedding Models",
+                "content": "Embedding models convert text or data into dense vector representations, enabling similarity search and semantic understanding."
+            },
+            {
+                "topic": "Retrieval-Augmented Generation (RAG) Pipeline",
+                "content": "A RAG pipeline typically consists of a retriever (fetches relevant documents) and a generator (produces answers using retrieved context)."
+            },
+            {
+                "topic": "Conversational Memory",
+                "content": "Conversational memory allows AI assistants to remember previous interactions, improving context awareness and user experience."
+            },
+            {
+                "topic": "OpenAI GPT-4",
+                "content": "GPT-4 is a large multimodal model by OpenAI, capable of processing both text and images, and demonstrates improved reasoning and factual accuracy."
+            },
+            {
+                "topic": "Instruction Tuning",
+                "content": "Instruction tuning involves training LLMs to follow natural language instructions, improving usability for non-technical users."
+            },
+            {
+                "topic": "RLHF (Reinforcement Learning from Human Feedback)",
+                "content": "RLHF is a technique where LLMs are fine-tuned using feedback from human evaluators, aligning outputs with human preferences."
+            },
+            {
+                "topic": "Prompt Templates",
+                "content": "Prompt templates are reusable prompt structures that standardize interactions with LLMs for specific tasks or domains."
+            },
+            {
+                "topic": "Semantic Search",
+                "content": "Semantic search uses embeddings to find documents or passages with similar meaning, rather than relying on keyword matching."
+            },
+            {
+                "topic": "Contextual Embeddings",
+                "content": "Contextual embeddings capture the meaning of words or sentences based on their context, enabling nuanced understanding in NLP tasks."
+            }
+        ]
+    },
+    {
+        "type": "ai_assistant_faq",
+        "description": "Extended frequently asked questions for AI assistant",
+        "faq": [
+            {
+                "question": "How do I evaluate the performance of a language model?",
+                "answer": "Common metrics include accuracy, F1 score, BLEU, ROUGE, and perplexity. For generative tasks, human evaluation is also important."
+            },
+            {
+                "question": "What are embeddings and why are they important?",
+                "answer": "Embeddings are dense vector representations of data, enabling efficient similarity search and semantic understanding in NLP and RAG systems."
+            },
+            {
+                "question": "How can I reduce hallucinations in LLM outputs?",
+                "answer": "Use retrieval-augmented generation, fact-checking, and prompt engineering to provide accurate context and reduce hallucinations."
+            },
+            {
+                "question": "What is the difference between supervised and unsupervised learning?",
+                "answer": "Supervised learning uses labeled data for training, while unsupervised learning finds patterns in unlabeled data."
+            },
+            {
+                "question": "How do I deploy an LLM in production?",
+                "answer": "Use scalable APIs, monitor performance, handle rate limits, and ensure data privacy and security."
+            },
+            {
+                "question": "What are the risks of prompt injection?",
+                "answer": "Prompt injection can manipulate LLM outputs or leak sensitive data. Mitigate by sanitizing inputs and restricting model capabilities."
+            },
+            {
+                "question": "How do I use vector databases with RAG?",
+                "answer": "Store document embeddings in a vector database like FAISS or Pinecone, then retrieve relevant vectors for context during generation."
+            },
+            {
+                "question": "What is instruction tuning?",
+                "answer": "Instruction tuning trains LLMs to follow user instructions, improving usability and alignment with user intent."
+            },
+            {
+                "question": "How can I make my AI assistant more conversational?",
+                "answer": "Implement conversational memory, use context-aware prompts, and fine-tune on dialogue datasets."
+            },
+            {
+                "question": "What datasets are commonly used for LLM training?",
+                "answer": "Common datasets include Wikipedia, Common Crawl, BookCorpus, and domain-specific corpora."
+            }
+        ]
+    },
+    {
+        "type": "ai_assistant_tools",
+        "description": "Extended tools and libraries for LLM and RAG development",
+        "tools": [
+            {
+                "name": "OpenAI API",
+                "purpose": "Access to GPT-3, GPT-4, and other models for text generation, summarization, and more."
+            },
+            {
+                "name": "Pinecone",
+                "purpose": "Managed vector database for large-scale similarity search and semantic retrieval."
+            },
+            {
+                "name": "Weaviate",
+                "purpose": "Open-source vector database with built-in machine learning modules for semantic search."
+            },
+            {
+                "name": "Milvus",
+                "purpose": "Highly scalable vector database for embedding storage and retrieval."
+            },
+            {
+                "name": "Chroma",
+                "purpose": "Lightweight open-source embedding database for rapid prototyping and RAG applications."
+            },
+            {
+                "name": "Sentence Transformers",
+                "purpose": "Library for generating sentence and document embeddings using transformer models."
+            },
+            {
+                "name": "OpenSearch",
+                "purpose": "Search and analytics engine with support for vector search and hybrid retrieval."
+            },
+            {
+                "name": "LlamaIndex",
+                "purpose": "Framework for building LLM-powered applications with data connectors and retrieval capabilities."
+            },
+            {
+                "name": "DeepSpeed",
+                "purpose": "Library for efficient distributed training and inference of large language models."
+            },
+            {
+                "name": "Ray Serve",
+                "purpose": "Scalable model serving framework for deploying LLMs and RAG pipelines in production."
+            }
+        ]
+    },
+    {
+        "type": "ai_assistant_use_cases",
+        "description": "Common use cases for LLM and RAG assistants",
+        "use_cases": [
+            {
+                "title": "Customer Support Automation",
+                "details": "LLMs can answer customer queries, resolve issues, and escalate complex cases to human agents."
+            },
+            {
+                "title": "Document Summarization",
+                "details": "Summarize long documents, research papers, or news articles into concise overviews."
+            },
+            {
+                "title": "Code Generation and Review",
+                "details": "Assist developers by generating code snippets, reviewing code, and suggesting improvements."
+            },
+            {
+                "title": "Personalized Recommendations",
+                "details": "Provide personalized book, movie, or product recommendations based on user preferences."
+            },
+            {
+                "title": "Knowledge Base Search",
+                "details": "Retrieve relevant information from large knowledge bases using semantic search and RAG."
+            },
+            {
+                "title": "Language Translation",
+                "details": "Translate text between multiple languages with high accuracy."
+            },
+            {
+                "title": "Medical Question Answering",
+                "details": "Answer medical queries using curated medical literature and retrieval-augmented generation."
+            },
+            {
+                "title": "Legal Document Analysis",
+                "details": "Analyze contracts, extract key clauses, and answer legal questions."
+            },
+            {
+                "title": "Educational Tutoring",
+                "details": "Provide explanations, quizzes, and personalized learning paths for students."
+            },
+            {
+                "title": "Creative Writing Assistance",
+                "details": "Help users brainstorm ideas, write stories, and edit drafts."
+            }
+        ]
+    },
+    {
+        "type": "ai_assistant_datasets",
+        "description": "Popular datasets for LLM and RAG training and evaluation",
+        "datasets": [
+            {
+                "name": "Common Crawl",
+                "purpose": "Large-scale web crawl data used for pre-training language models."
+            },
+            {
+                "name": "Wikipedia",
+                "purpose": "Structured and reliable text corpus for knowledge-intensive tasks."
+            },
+            {
+                "name": "BookCorpus",
+                "purpose": "Collection of books for training models on long-form text."
+            },
+            {
+                "name": "SQuAD",
+                "purpose": "Question answering dataset with context passages and answers."
+            },
+            {
+                "name": "Natural Questions",
+                "purpose": "Real user questions with answers from Wikipedia articles."
+            },
+            {
+                "name": "MS MARCO",
+                "purpose": "Large-scale dataset for passage ranking and question answering."
+            },
+            {
+                "name": "OpenWebText",
+                "purpose": "Web text dataset curated to resemble OpenAI's GPT-2 training data."
+            },
+            {
+                "name": "HotpotQA",
+                "purpose": "Multi-hop question answering dataset requiring reasoning over multiple documents."
+            },
+            {
+                "name": "TriviaQA",
+                "purpose": "Question answering dataset with evidence documents and verified answers."
+            },
+            {
+                "name": "COQA",
+                "purpose": "Conversational question answering dataset for dialogue-based QA systems."
+            }
+        ]
+    },
+    {
+        "type": "ai_assistant_evaluation",
+        "description": "Evaluation metrics and methods for LLM and RAG systems",
+        "metrics": [
+            {
+                "name": "Perplexity",
+                "description": "Measures how well a language model predicts a sample. Lower perplexity indicates better performance."
+            },
+            {
+                "name": "BLEU",
+                "description": "Bilingual Evaluation Understudy. Measures the quality of machine-generated text against reference translations."
+            },
+            {
+                "name": "ROUGE",
+                "description": "Recall-Oriented Understudy for Gisting Evaluation. Used for evaluating summarization and translation."
+            },
+            {
+                "name": "F1 Score",
+                "description": "Harmonic mean of precision and recall, commonly used for classification and QA tasks."
+            },
+            {
+                "name": "Exact Match",
+                "description": "Measures the percentage of predictions that match the ground truth exactly."
+            },
+            {
+                "name": "Human Evaluation",
+                "description": "Involves human judges rating the quality, relevance, and factual accuracy of model outputs."
+            },
+            {
+                "name": "Mean Reciprocal Rank (MRR)",
+                "description": "Evaluates the effectiveness of retrieval systems by measuring the rank of the first relevant result."
+            },
+            {
+                "name": "Precision@K",
+                "description": "Measures the proportion of relevant items in the top K retrieved results."
+            },
+            {
+                "name": "Recall@K",
+                "description": "Measures the proportion of all relevant items retrieved in the top K results."
+            },
+            {
+                "name": "Normalized Discounted Cumulative Gain (NDCG)",
+                "description": "Evaluates ranking quality by considering the position of relevant documents in the result list."
+            }
+        ]
+    },
+    {
+        "type": "ai_assistant_best_practices",
+        "description": "Best practices for developing and deploying LLM and RAG systems",
+        "practices": [
+            "Use prompt engineering to guide model outputs.",
+            "Implement retrieval-augmented generation for factual accuracy.",
+            "Monitor and log model outputs for quality assurance.",
+            "Regularly update knowledge bases and embeddings.",
+            "Use human-in-the-loop for critical applications.",
+            "Test for prompt injection and adversarial attacks.",
+            "Ensure data privacy and compliance with regulations.",
+            "Optimize inference for latency and scalability.",
+            "Fine-tune models on domain-specific data.",
+            "Document system limitations and failure cases."
+        ]
+    },
+    {
+        "type": "ai_assistant_troubleshooting",
+        "description": "Common issues and troubleshooting tips for LLM and RAG systems",
+        "issues": [
+            {
+                "problem": "Model generates irrelevant or off-topic responses.",
+                "solution": "Refine prompts, provide more context, or use retrieval-augmented generation."
+            },
+            {
+                "problem": "High latency during inference.",
+                "solution": "Optimize model size, use quantization, or deploy on faster hardware."
+            },
+            {
+                "problem": "Hallucinated or fabricated information.",
+                "solution": "Incorporate retrieval, fact-checking, and prompt constraints."
+            },
+            {
+                "problem": "Prompt injection vulnerabilities.",
+                "solution": "Sanitize user inputs and restrict model capabilities."
+            },
+            {
+                "problem": "Outdated knowledge in responses.",
+                "solution": "Regularly update training data and knowledge bases."
+            },
+            {
+                "problem": "Poor performance on domain-specific queries.",
+                "solution": "Fine-tune the model on relevant domain data."
+            },
+            {
+                "problem": "Memory errors during training or inference.",
+                "solution": "Reduce batch size, use gradient checkpointing, or upgrade hardware."
+            },
+            {
+                "problem": "Inconsistent conversational memory.",
+                "solution": "Implement explicit memory management and context tracking."
+            },
+            {
+                "problem": "Bias in model outputs.",
+                "solution": "Audit outputs, use debiasing techniques, and diversify training data."
+            },
+            {
+                "problem": "Difficulty handling long documents.",
+                "solution": "Use chunking, sliding windows, or models with larger context windows."
+            }
+        ]
+    },
+    {
+        "type": "ai_assistant_ethics",
+        "description": "Ethical considerations for LLM and RAG systems",
+        "considerations": [
+            "Avoid generating harmful, biased, or offensive content.",
+            "Respect user privacy and data security.",
+            "Disclose limitations and potential risks to users.",
+            "Implement content moderation and filtering.",
+            "Ensure transparency in model decision-making.",
+            "Provide mechanisms for user feedback and correction.",
+            "Comply with legal and regulatory requirements.",
+            "Monitor for misuse and abuse of AI systems.",
+            "Promote fairness and inclusivity in model outputs.",
+            "Regularly review and update ethical guidelines."
+        ]
+    },
+    {
+        "type": "ai_assistant_glossary",
+        "description": "Glossary of common terms in LLM and RAG development",
+        "terms": [
+            {
+                "term": "LLM",
+                "definition": "Large Language Model, a neural network trained on vast text data for NLP tasks."
+            },
+            {
+                "term": "RAG",
+                "definition": "Retrieval-Augmented Generation, combining retrieval and generation for improved QA."
+            },
+            {
+                "term": "Embedding",
+                "definition": "Dense vector representation of data for similarity search and semantic understanding."
+            },
+            {
+                "term": "Prompt",
+                "definition": "Input text or instruction given to an LLM to guide its output."
+            },
+            {
+                "term": "Fine-tuning",
+                "definition": "Further training a pre-trained model on specific data to improve performance."
+            },
+            {
+                "term": "Retriever",
+                "definition": "Component that fetches relevant documents or passages for RAG systems."
+            },
+            {
+                "term": "Generator",
+                "definition": "Component that synthesizes answers using retrieved context in RAG systems."
+            },
+            {
+                "term": "Token",
+                "definition": "Smallest unit of text processed by an LLM, such as a word or subword."
+            },
+            {
+                "term": "Context Window",
+                "definition": "Maximum number of tokens an LLM can process at once."
+            },
+            {
+                "term": "Hallucination",
+                "definition": "Generation of plausible but incorrect or fabricated information by an LLM."
+            }
+        ]
+    },
+    {
+        "type": "ai_assistant_prompt_examples",
+        "description": "Example prompts for interacting with LLM and RAG assistants",
+        "examples": [
+            {
+                "prompt": "Summarize the following article in three sentences.",
+                "use_case": "Document summarization"
+            },
+            {
+                "prompt": "What are the main differences between supervised and unsupervised learning?",
+                "use_case": "Educational Q&A"
+            },
+            {
+                "prompt": "Generate Python code to sort a list of numbers.",
+                "use_case": "Code generation"
+            },
+            {
+                "prompt": "Translate this paragraph from English to French.",
+                "use_case": "Language translation"
+            },
+            {
+                "prompt": "Retrieve the latest research on quantum computing.",
+                "use_case": "Knowledge base search"
+            },
+            {
+                "prompt": "Explain the concept of attention in transformers.",
+                "use_case": "Technical explanation"
+            },
+            {
+                "prompt": "List five healthy breakfast options.",
+                "use_case": "Personalized recommendations"
+            },
+            {
+                "prompt": "What are the ethical concerns with AI-generated content?",
+                "use_case": "Ethics discussion"
+            },
+            {
+                "prompt": "Provide a step-by-step solution to this math problem.",
+                "use_case": "Chain-of-thought reasoning"
+            },
+            {
+                "prompt": "Summarize the conversation so far.",
+                "use_case": "Conversational memory"
+            }
+        ]
+    },
+    {
+        "type": "ai_assistant_personas",
+        "description": "Sample AI assistant personas for different user needs",
+        "personas": [
+            {
+                "name": "Tech Mentor",
+                "traits": ["knowledgeable", "patient", "encouraging"],
+                "specialty": "Explains technical concepts and guides learning."
+            },
+            {
+                "name": "Productivity Coach",
+                "traits": ["motivational", "organized", "goal-oriented"],
+                "specialty": "Helps users plan tasks, set goals, and stay productive."
+            },
+            {
+                "name": "Creative Partner",
+                "traits": ["imaginative", "supportive", "collaborative"],
+                "specialty": "Assists with brainstorming, writing, and creative projects."
+            },
+            {
+                "name": "Wellness Advisor",
+                "traits": ["empathetic", "informed", "encouraging"],
+                "specialty": "Provides health tips, mindfulness exercises, and wellness routines."
+            },
+            {
+                "name": "Research Assistant",
+                "traits": ["analytical", "efficient", "detail-oriented"],
+                "specialty": "Finds and summarizes research, manages citations, and organizes notes."
+            }
+        ]
+    },
+    {
+        "type": "ai_assistant_security",
+        "description": "Security guidelines for LLM and RAG systems",
+        "guidelines": [
+            "Sanitize all user inputs to prevent prompt injection.",
+            "Restrict model access to sensitive data.",
+            "Monitor for abnormal usage patterns.",
+            "Implement rate limiting and authentication.",
+            "Encrypt data at rest and in transit.",
+            "Regularly update dependencies and libraries.",
+            "Audit logs for suspicious activity.",
+            "Limit model output length to prevent data leakage.",
+            "Use allow-lists for external API calls.",
+            "Educate users about safe AI usage."
+        ]
+    },
+    {
+        "type": "ai_assistant_limitations",
+        "description": "Known limitations of LLM and RAG systems",
+        "limitations": [
+            "May generate incorrect or misleading information.",
+            "Limited by the context window size.",
+            "Sensitive to prompt phrasing and structure.",
+            "Can reflect biases present in training data.",
+            "Struggles with reasoning over very long documents.",
+            "May not have up-to-date knowledge after training cutoff.",
+            "Vulnerable to adversarial prompts and attacks.",
+            "Resource-intensive for training and inference.",
+            "Requires careful evaluation for critical applications.",
+            "Not a substitute for expert human judgment."
+        ]
+    }
+]
