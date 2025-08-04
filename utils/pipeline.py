@@ -7,9 +7,17 @@ def run_data_feed_pipeline(files,embedder_model,index_path):
     chunk_id = {}
     for file in files.keys():
         file_path,file_format = files[file]
+
+        """Extracting text from files"""
         text = data_extractor(file_path,file,file_format)
+
+        """Turning whole data into chunks"""
         chunk_id,chunk = chunker(text,file,chunk_id)
+
+        """Turning the chunks into vector embeddings"""
         embeds = embedder(chunk,embedder_model)
+
+        """Adding Embeddings to the VectorDB"""
         add_data_to_VectorDB(embeds,index_path)
 
     return chunk_id

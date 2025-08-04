@@ -21,3 +21,4 @@ del(index)
 
 chunk_id = run_data_feed_pipeline(files,model_embedd,index_path)
 print(chunk_id.keys())
+
