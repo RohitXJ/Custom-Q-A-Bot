@@ -10,14 +10,14 @@ def model_call():
     model.eval()
     return model,tokenizer,device
 
-def build_prompt(question, top_indices, chunk_map,data_id):
-    prompt = f"Answer the following question using the context below:\n\n"
+def build_prompt(question, top_indices, chunk_map):
+    prompt = "Answer the following question using the context below:\n\n"
     for idx in top_indices:
-        key = f"{data_id}_chunk_{int(idx)}"
-        if key in chunk_map:
-            prompt += chunk_map[key] + "\n"
+        idx = int(idx)  # Ensure it's int
+        if idx in chunk_map:
+            prompt += chunk_map[idx] + "\n"
         else:
-            print(f"[WARN] Missing chunk: {key}")
+            print(f"[WARN] Missing chunk index: {idx}")
     prompt += f"\nQuestion: {question}\nAnswer:"
     return prompt
 

@@ -1,6 +1,6 @@
 MAX_TOKEN = 250 
 
-def chunker(text: str, doc_id: str,chunk_id):
+def chunker(text: str, doc_id: str,chunk_id,current_index):
     print("Chunking\n")
     words = text.split()
     chunks = []
@@ -8,6 +8,7 @@ def chunker(text: str, doc_id: str,chunk_id):
         chunk = ' '.join(words[i:i + MAX_TOKEN])
         chunks.append(chunk)
     
-    chunk_id_to_text = {f"{doc_id}_chunk_{i}": chunk for i, chunk in enumerate(chunks)}
-    chunk_id = chunk_id | chunk_id_to_text
-    return chunk_id,chunks
+    for chunk in chunks:
+        chunk_id[current_index]=chunk
+        current_index += 1
+    return chunk_id,chunks,current_index
