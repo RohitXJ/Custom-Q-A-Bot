@@ -14,10 +14,10 @@ except ImportError:
 
 import faiss
 from sentence_transformers import SentenceTransformer
-from backend.utils.pipeline import run_data_feed_pipeline
-from backend.utils.LLM import model_call,build_prompt
-from backend.utils.vectorDB import search_faiss
-from backend.utils.embedd import query_embedder
+from utils.pipeline import run_data_feed_pipeline
+from utils.LLM import model_call,build_prompt
+from utils.vectorDB import search_faiss
+from utils.embedd import query_embedder
 import torch
 
 MAX_TOKEN = 100
