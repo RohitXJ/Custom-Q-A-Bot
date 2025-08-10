@@ -50,3 +50,4 @@ def data_extractor(file_path,file_name,file_format):
 #print(load_txt("DATA_POOL/sample_txt.txt"))
 #print(load_pdf("DATA_POOL/sample_pdf.pdf"))
 #print(load_json("DATA_POOL/sample_json.json"))
+print(load_pdf("DATA_POOL/Rohit_Gomes_Resume (1).pdf"))
