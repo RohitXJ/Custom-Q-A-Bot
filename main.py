@@ -1,4 +1,17 @@
+import warnings
 import os
+warnings.filterwarnings("ignore")  # Ignore ALL warnings
+from functools import partial
+import builtins
+import sys
+sys.stderr = open(os.devnull, "w")  # Suppress error/warning printing to stderr
+try:
+    import tqdm
+    tqdm.tqdm = partial(tqdm.tqdm, disable=True)
+except ImportError:
+    pass
+
+
 import faiss
 from sentence_transformers import SentenceTransformer
 from utils.pipeline import run_data_feed_pipeline
@@ -25,7 +38,7 @@ def knowledge_base_setup():
     del(index)
 
     chunk_id = run_data_feed_pipeline(files,model_embedd,index_path,current_index)
-    print(chunk_id.keys())
+    print("Agent Waking Up")
     return chunk_id
 
 def LLM_call():

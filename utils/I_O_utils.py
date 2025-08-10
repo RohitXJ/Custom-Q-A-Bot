@@ -36,7 +36,6 @@ def clean_text(text):
     return text.strip()
 
 def data_extractor(file_path,file_name,file_format): 
-    print(f"Extractting data from {file_name}\n")
     if file_format == "pdf":
         text = load_pdf(file_path)
     elif file_format == "txt":
@@ -50,4 +49,4 @@ def data_extractor(file_path,file_name,file_format):
 #print(load_txt("DATA_POOL/sample_txt.txt"))
 #print(load_pdf("DATA_POOL/sample_pdf.pdf"))
 #print(load_json("DATA_POOL/sample_json.json"))
-print(load_pdf("DATA_POOL/Rohit_Gomes_Resume (1).pdf"))
+#print(load_pdf("DATA_POOL/Rohit_Gomes_Resume (1).pdf"))
