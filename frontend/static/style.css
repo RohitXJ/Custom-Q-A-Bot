@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #ffffff;
+    cursor: default;
+    background-image: url("/images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: -1;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.4); /* Glassmorphism background */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    overflow: hidden;
+    z-index: 1;
+    color: #ffffff;
+}
+
+header {
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+header p {
+    margin: 10px 0 0;
+    opacity: 0.8;
+    font-weight: 300;
+}
+
+section {
+    padding: 30px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #ffffff;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.18);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#file-input {
+    display: none; /* Hide default input */
+}
+
+.file-input-label {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px dashed rgba(255, 255, 255, 0.5);
+    padding: 40px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.file-input-label:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+
+button {
+    background: linear-gradient(45deg, #00aaff, #0077ff);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 150, 255, 0.3);
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 150, 255, 0.5);
+}
+
+#upload-status {
+    margin-top: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#chat-box {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.message {
+    padding: 12px 18px;
+    border-radius: 18px;
+    max-width: 80%;
+    line-height: 1.5;
+    animation: fadeIn 0.5s ease;
+    color: #ffffff;
+}
+
+.message.user {
+    background: linear-gradient(45deg, #00aaff, #0077ff);
+    align-self: flex-end;
+    border-bottom-right-radius: 4px;
+}
+
+.message.bot {
+    background-color: rgba(255, 255, 255, 0.15);
+    align-self: flex-start;
+    border-bottom-left-radius: 4px;
+}
+
+.chat-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    transition: box-shadow 0.3s ease;
+}
+
+.chat-input input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 150, 255, 0.5);
+}
+
+.end-session {
+    background: linear-gradient(45deg, #ff4757, #ff6b81);
+    box-shadow: 0 4px 15px rgba(255, 71, 87, 0.3);
+}
+
+.end-session:hover {
+    box-shadow: 0 6px 20px rgba(255, 71, 87, 0.5);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

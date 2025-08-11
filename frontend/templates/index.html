@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RX7 - Your Personal AI Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>RX7 Document Chat</h1>
+            <p>Upload documents, then chat with your AI assistant</p>
+        </header>
+
+        <section id="upload-section">
+            <h2>Upload Your Documents</h2>
+            <label for="file-input" class="file-input-label">
+                <span>Click here to select your files</span>
+            </label>
+            <input type="file" id="file-input" multiple>
+            <button id="upload-btn">Upload</button>
+            <p id="upload-status"></p>
+        </section>
+
+        <section id="chat-section" style="display: none;">
+            <h2>Chat with RX7</h2>
+            <div id="chat-box"></div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Ask a question...">
+            </div>
+            <button id="end-session-btn" class="end-session">End Session</button>
+        </section>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
